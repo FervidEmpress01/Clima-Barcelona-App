@@ -114,3 +114,4 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Commit y push realizados correctamente.
+Se detectaron cambios, haciendo commit...
