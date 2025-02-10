@@ -7,7 +7,7 @@ import csv
 import os
 from datetime import datetime
 
-API_KEY = "d1c4a716585212f0d95f61e72dafe4c4"  # Reemplázala con tu clave real
+API_KEY = "d1c4a716585212f0d95f61e72dafe4c4"  
 LAT = "41.3888"  # Latitud de Barcelona
 LON = "2.159"  # Longitud de Barcelona
 CITY = "Barcelona"
@@ -15,7 +15,7 @@ CITY = "Barcelona"
 url = f"http://api.openweathermap.org/data/2.5/weather?lat={LAT}&lon={LON}&appid={API_KEY}&units=metric"
 
 # Nombre del archivo CSV
-filename = f"clima-{CITY}-hoy.csv"
+filename = f"/root/Proyecto/clima-{CITY}-hoy.csv"
 
 try:
     # Obtener los datos de la API
