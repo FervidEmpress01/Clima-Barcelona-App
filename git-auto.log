@@ -133,3 +133,20 @@ To https://github.com/FervidEmpress01/Clima-Barcelona-App
    8c7155e..6749b1b  main -> main
 Commit y push realizados correctamente.
 Se detectaron cambios, haciendo commit...
+[main 53828ee] Auto commit: 2025-02-10 02:00:01
+ Committer: root <root@Mauricio.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 18 insertions(+)
+To https://github.com/FervidEmpress01/Clima-Barcelona-App
+   6749b1b..53828ee  main -> main
+Commit y push realizados correctamente.
