@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Reporte del Clima</title>
+</head>
+<body>
+    <h1>Reporte del Clima para Barcelona</h1>
+    <p>Última actualización: <span id="fecha"></span></p>
+    <pre id="contenido"></pre>
+
+    <script>
+        fetch("../clima-Barcelona-hoy.csv")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("contenido").textContent = data;
+                document.getElementById("fecha").textContent = new Date().toLocaleString();
+            });
+    </script>
+</body>
+</html>
