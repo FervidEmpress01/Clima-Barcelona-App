@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Este script ejecuta un bloque Python directamente
 python3 << EOF
 import requests
 import csv
@@ -14,7 +13,6 @@ CITY = "Barcelona"
 
 url = f"http://api.openweathermap.org/data/2.5/weather?lat={LAT}&lon={LON}&appid={API_KEY}&units=metric"
 
-# Nombre del archivo CSV
 filename = f"/root/Proyecto/clima-{CITY}-hoy.csv"
 
 try:
